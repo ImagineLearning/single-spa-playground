@@ -10,10 +10,8 @@ export default React.forwardRef(function ApplicationExecutable(props, ref) {
     systemJsWebpackInteropErrorModuleName,
     setSystemJsWebpackInteropErrorModuleName,
   ] = useState(false);
-  const [
-    unableToResolveBareSpecifier,
-    setUnableToResolveBareSpecifier,
-  ] = useState(false);
+  const [unableToResolveBareSpecifier, setUnableToResolveBareSpecifier] =
+    useState(false);
 
   const errorHandler = useCallback((error) => {
     const match = error.message.match(

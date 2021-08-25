@@ -37,9 +37,8 @@ export default function HtmlFile(props) {
 
   const importMap = {
     imports: {
-      [application.name]: window.importMapOverrides.getOverrideMap().imports[
-        application.name
-      ],
+      [application.name]:
+        window.importMapOverrides.getOverrideMap().imports[application.name],
       ...sharedDepsImportMap(application.sharedDeps),
     },
   };

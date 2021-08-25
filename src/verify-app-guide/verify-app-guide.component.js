@@ -12,9 +12,8 @@ import {
 } from "../shared/links.component";
 
 export default function VerifyAppGuide(props) {
-  const { application, addApplication, updateApplication } = useContext(
-    LocalStorageContext
-  );
+  const { application, addApplication, updateApplication } =
+    useContext(LocalStorageContext);
 
   const [showVerificationSteps, setShowVerificationSteps] = useState(false);
   const [showRegisterApp, setShowRegisterApp] = useState(false);

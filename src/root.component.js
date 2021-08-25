@@ -24,9 +24,8 @@ export default function Root(props) {
       window.removeEventListener("single-spa:routing-event", routeChange);
 
     function routeChange() {
-      const shouldShowPlayground = window.location.pathname.startsWith(
-        "/playground"
-      );
+      const shouldShowPlayground =
+        window.location.pathname.startsWith("/playground");
       setShowPlayground(shouldShowPlayground);
     }
   }, []);

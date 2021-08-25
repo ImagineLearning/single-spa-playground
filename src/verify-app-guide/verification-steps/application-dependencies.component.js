@@ -98,8 +98,9 @@ export const getPlaygroundDeps = () => {
     // do nothing
   }
 
-  const playgroundSharedDep = JSON.parse(playgroundImportmap.textContent)
-    .imports;
+  const playgroundSharedDep = JSON.parse(
+    playgroundImportmap.textContent
+  ).imports;
 
   return {
     importMapOverridesDeps,
