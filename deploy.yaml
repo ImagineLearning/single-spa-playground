@@ -1,0 +1,12 @@
+global:
+  name: single-spa-playground
+  type: static_website
+  team: assessment
+
+# static_website deployment configuration
+static_website:
+  # required; all files within this specified dir are published to cdn
+  local_dir: dist
+  # required; website is published to this subdomain in each namespace; must be valid dns chars: [a-z0-9\-]+
+  hosts:
+    - subdomain: single-spa-playground
