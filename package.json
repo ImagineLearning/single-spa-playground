@@ -8,6 +8,7 @@
     "lint": "eslint src",
     "test": "echo \"No tests. ¯\\_(ツ)_/¯\""
   },
+  "private": true,
   "main": "dist/single-spa-playground.min.js",
   "repository": "git@github.com:joeldenning/single-spa-playground.git",
   "author": "Joel Denning <joeldenning@gmail.com>",
