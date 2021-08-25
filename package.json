@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "rimraf dist && webpack --config webpack.config.js --mode=production && copyfiles index.html 404.html CNAME dist",
+    "build": "rimraf dist && webpack --config webpack.config.js --mode=production && copyfiles index.html 404.html dist",
     "prettier": "prettier --write './**'",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test": "echo \"No tests. ¯\\_(ツ)_/¯\""
   },
   "main": "dist/single-spa-playground.min.js",
   "repository": "git@github.com:joeldenning/single-spa-playground.git",
