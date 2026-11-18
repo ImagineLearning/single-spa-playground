@@ -46,6 +46,10 @@
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2"
   },
+  "resolutions": {
+    "ansi-html": "0.0.8",
+    "websocket-driver": "0.7.5"
+  },
   "engines": {
     "node": ">=10"
   }
